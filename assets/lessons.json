@@ -1,0 +1,97 @@
+{
+  "_note": "PLACEHOLDER CONTENT. Replace every [TODO ...] from Content Pack v0.1, then run tool/seed_lessons.js. The app bundles this file as its offline fallback.",
+  "lessons": [
+    {
+      "id": "l01-brain-20-watts",
+      "order": 1,
+      "published": true,
+      "title": "Your brain runs on 20 watts",
+      "sourceVideoTitle": "Your Brain Runs on 20 Watts: Here's Why Try Harder Fails",
+      "youtubeId": "RdAEGUJaflA",
+      "clipStartSec": 502,
+      "clipEndSec": 568,
+      "keyIdea": [
+        "[TODO Content Pack L1] Key idea bullet 1",
+        "[TODO Content Pack L1] Key idea bullet 2",
+        "[TODO Content Pack L1] Key idea bullet 3"
+      ],
+      "action": "[TODO Content Pack L1] Today's action",
+      "reflectionQuestion": "At what point today did your work start to slip?",
+      "quiz": [
+        {"question": "[TODO L1] Question 1", "options": ["Option A", "Option B", "Option C"], "correctIndex": 0, "explanation": "[TODO] Explanation"},
+        {"question": "[TODO L1] Question 2", "options": ["Option A", "Option B", "Option C"], "correctIndex": 1, "explanation": "[TODO] Explanation"},
+        {"question": "[TODO L1] Question 3", "options": ["Option A", "Option B", "Option C"], "correctIndex": 2, "explanation": "[TODO] Explanation"}
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l02-one-thing",
+      "order": 2,
+      "published": true,
+      "title": "One thing at a time",
+      "sourceVideoTitle": "[TODO Content Pack L2] Source video title",
+      "youtubeId": "RdAEGUJaflA",
+      "clipStartSec": 60,
+      "clipEndSec": 120,
+      "keyIdea": [
+        "[TODO Content Pack L2] Key idea bullet 1",
+        "[TODO Content Pack L2] Key idea bullet 2",
+        "[TODO Content Pack L2] Key idea bullet 3"
+      ],
+      "action": "[TODO Content Pack L2] Today's action",
+      "reflectionQuestion": "[TODO Content Pack L2] Evening question",
+      "quiz": [
+        {"question": "[TODO L2] Question 1", "options": ["Option A", "Option B", "Option C"], "correctIndex": 0, "explanation": "[TODO] Explanation"},
+        {"question": "[TODO L2] Question 2", "options": ["Option A", "Option B", "Option C"], "correctIndex": 1, "explanation": "[TODO] Explanation"},
+        {"question": "[TODO L2] Question 3", "options": ["Option A", "Option B", "Option C"], "correctIndex": 2, "explanation": "[TODO] Explanation"}
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l03-lesson-3",
+      "order": 3,
+      "published": true,
+      "title": "[TODO Content Pack L3] Title",
+      "sourceVideoTitle": "[TODO Content Pack L3] Source video title",
+      "youtubeId": "RdAEGUJaflA",
+      "clipStartSec": 180,
+      "clipEndSec": 240,
+      "keyIdea": [
+        "[TODO Content Pack L3] Key idea bullet 1",
+        "[TODO Content Pack L3] Key idea bullet 2",
+        "[TODO Content Pack L3] Key idea bullet 3"
+      ],
+      "action": "[TODO Content Pack L3] Today's action",
+      "reflectionQuestion": "[TODO Content Pack L3] Evening question",
+      "quiz": [
+        {"question": "[TODO L3] Question 1", "options": ["Option A", "Option B", "Option C"], "correctIndex": 0, "explanation": "[TODO] Explanation"},
+        {"question": "[TODO L3] Question 2", "options": ["Option A", "Option B", "Option C"], "correctIndex": 1, "explanation": "[TODO] Explanation"},
+        {"question": "[TODO L3] Question 3", "options": ["Option A", "Option B", "Option C"], "correctIndex": 2, "explanation": "[TODO] Explanation"}
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l04-lesson-4",
+      "order": 4,
+      "published": true,
+      "title": "[TODO Content Pack L4] Title",
+      "sourceVideoTitle": "[TODO Content Pack L4] Source video title",
+      "youtubeId": "RdAEGUJaflA",
+      "clipStartSec": 300,
+      "clipEndSec": 360,
+      "keyIdea": [
+        "[TODO Content Pack L4] Key idea bullet 1",
+        "[TODO Content Pack L4] Key idea bullet 2",
+        "[TODO Content Pack L4] Key idea bullet 3"
+      ],
+      "action": "[TODO Content Pack L4] Today's action",
+      "reflectionQuestion": "[TODO Content Pack L4] Evening question",
+      "quiz": [
+        {"question": "[TODO L4] Question 1", "options": ["Option A", "Option B", "Option C"], "correctIndex": 0, "explanation": "[TODO] Explanation"},
+        {"question": "[TODO L4] Question 2", "options": ["Option A", "Option B", "Option C"], "correctIndex": 1, "explanation": "[TODO] Explanation"},
+        {"question": "[TODO L4] Question 3", "options": ["Option A", "Option B", "Option C"], "correctIndex": 2, "explanation": "[TODO] Explanation"}
+      ],
+      "contentVersion": 1
+    }
+  ]
+}

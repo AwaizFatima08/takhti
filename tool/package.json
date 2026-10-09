@@ -1,0 +1,16 @@
+{
+  "name": "takhti-grow-tools",
+  "private": true,
+  "description": "Seed script and Firestore rules tests for Takhti Grow",
+  "scripts": {
+    "seed": "node seed_lessons.js",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-takhti 'node --test rules.test.mjs'"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.5.0"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.0",
+    "firebase": "^12.3.0"
+  }
+}

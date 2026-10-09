@@ -1,0 +1,63 @@
+rules_version = '2';
+// Takhti Grow — design v1.0 Section 8.4, with review fixes:
+//  * published lessons are public (D3: Lesson 1 preview before sign-in);
+//  * users can find and delete their own feedback (D6: deleted with the account);
+//  * feedback comment may be empty; field types and sizes are checked.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isOwner(uid) { return signedIn() && request.auth.uid == uid; }
+    function validName(n) { return n is string && n.size() >= 2 && n.size() <= 40; }
+    function hhmm(t) { return t is string && t.matches('^[0-2][0-9]:[0-5][0-9]$'); }
+
+    match /lessons/{lessonId} {
+      allow read: if resource.data.published == true;
+      allow write: if false;            // seeded by tool/seed_lessons.js only
+    }
+
+    match /appConfig/{doc} {
+      allow read: if true;              // needed before sign-in (force-update check)
+      allow write: if false;
+    }
+
+    match /users/{uid} {
+      allow read, delete: if isOwner(uid);
+      allow create: if isOwner(uid)
+        && request.resource.data.ageConfirmed18 == true
+        && validName(request.resource.data.displayName)
+        && request.resource.data.termsVersion is string;
+      allow update: if isOwner(uid)
+        && request.resource.data.ageConfirmed18 == resource.data.ageConfirmed18
+        && request.resource.data.createdAt == resource.data.createdAt
+        && validName(request.resource.data.displayName)
+        && (!('reminderLessonTime' in request.resource.data) || hhmm(request.resource.data.reminderLessonTime))
+        && (!('reminderReflectionTime' in request.resource.data) || hhmm(request.resource.data.reminderReflectionTime));
+
+      match /progress/{lessonId} {
+        allow read, write: if isOwner(uid);
+      }
+
+      match /reflections/{reflectionId} {
+        allow read, delete: if isOwner(uid);
+        allow create: if isOwner(uid)
+          && request.resource.data.actionDone in ['yes', 'partly', 'no']
+          && (!('note' in request.resource.data)
+              || (request.resource.data.note is string && request.resource.data.note.size() <= 500));
+        allow update: if false;         // reflections are not edited (Section 7)
+      }
+    }
+
+    match /feedback/{feedbackId} {
+      allow create: if signedIn()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.rating is int
+        && request.resource.data.rating >= 1
+        && request.resource.data.rating <= 5
+        && request.resource.data.comment is string
+        && request.resource.data.comment.size() <= 1000;
+      allow read, delete: if signedIn() && resource.data.uid == request.auth.uid;
+      allow update: if false;
+    }
+  }
+}
