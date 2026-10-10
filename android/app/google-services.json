@@ -12,7 +12,28 @@
           "package_name": "com.homilabs.takhtigrow"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "6197077163-0nggheuloiuortg3tu5nfs2v8jnjp3rn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homilabs.takhtigrow",
+            "certificate_hash": "4c0f0c1dd4b8fc07136c05effd77a27503bfe15e"
+          }
+        },
+        {
+          "client_id": "6197077163-peu1e8c6hgffb2mn96kup063rmj2gcpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homilabs.takhtigrow",
+            "certificate_hash": "e3502907029ab9e64952162858c74dd56becffd5"
+          }
+        },
+        {
+          "client_id": "6197077163-q3pu1bnuflru56gu0mmt5vs9s3s24luh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDrBkedjHEmyvY8nHwh55uGSAcpU3p4Iq4"
@@ -20,7 +41,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6197077163-q3pu1bnuflru56gu0mmt5vs9s3s24luh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
