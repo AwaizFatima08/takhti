@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "6197077163-5i7a4d55fumjpima8m29oqu71h6948ql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homilabs.takhtigrow",
+            "certificate_hash": "665f2d25547165fcac005be7a4de48ca0b5d11a2"
+          }
+        },
+        {
           "client_id": "6197077163-peu1e8c6hgffb2mn96kup063rmj2gcpm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

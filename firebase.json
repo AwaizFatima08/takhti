@@ -27,6 +27,17 @@
         "destination": "/grow/",
         "type": 301
       }
+    ],
+    "headers": [
+      {
+        "source": "/store/**",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "https://play.google.com"
+          }
+        ]
+      }
     ]
   }
 }
