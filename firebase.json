@@ -4,9 +4,29 @@
     "indexes": "firestore.indexes.json"
   },
   "emulators": {
-    "firestore": { "port": 8085 },
-    "auth": { "port": 9099 },
-    "ui": { "enabled": false },
+    "firestore": {
+      "port": 8085
+    },
+    "auth": {
+      "port": 9099
+    },
+    "ui": {
+      "enabled": false
+    },
     "singleProjectMode": true
+  },
+  "hosting": {
+    "public": "web",
+    "ignore": [
+      "**/.*"
+    ],
+    "cleanUrls": false,
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/grow/",
+        "type": 301
+      }
+    ]
   }
 }
