@@ -53,3 +53,4 @@ tool/*-sa.json
 .env
 
 tool/node_modules/
+.firebase/
