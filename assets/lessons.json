@@ -1,5 +1,5 @@
 {
-  "_note": "PLACEHOLDER CONTENT. Replace every [TODO ...] from Content Pack v0.1, then run tool/seed_lessons.js. The app bundles this file as its offline fallback.",
+  "_note": "Drafted 2026-10-11 from the Hindi auto-captions of Takhti videos RdAEGUJaflA and izOdgFjP8pM. Adeel to review wording and clip times. After edits: bump contentVersion and run tool/seed_lessons.js.",
   "lessons": [
     {
       "id": "l01-brain-20-watts",
@@ -11,87 +11,147 @@
       "clipStartSec": 502,
       "clipEndSec": 568,
       "keyIdea": [
-        "[TODO Content Pack L1] Key idea bullet 1",
-        "[TODO Content Pack L1] Key idea bullet 2",
-        "[TODO Content Pack L1] Key idea bullet 3"
+        "Your brain is about 2% of your body weight but uses about 20% of its energy, and most of that energy is spent even when you are resting.",
+        "Focusing pulls extra energy into one task. Push too long and the brain dims, and mistakes start to creep in.",
+        "Working harder is not the same as learning more. Focus in blocks, then recharge with real rest."
       ],
-      "action": "[TODO Content Pack L1] Today's action",
+      "action": "Do one focused block of 30 to 60 minutes on a single task today. Then take 10 minutes of real rest: a walk, fresh air or sunlight, not your phone.",
       "reflectionQuestion": "At what point today did your work start to slip?",
       "quiz": [
-        {"question": "[TODO L1] Question 1", "options": ["Option A", "Option B", "Option C"], "correctIndex": 0, "explanation": "[TODO] Explanation"},
-        {"question": "[TODO L1] Question 2", "options": ["Option A", "Option B", "Option C"], "correctIndex": 1, "explanation": "[TODO] Explanation"},
-        {"question": "[TODO L1] Question 3", "options": ["Option A", "Option B", "Option C"], "correctIndex": 2, "explanation": "[TODO] Explanation"}
+        {
+          "question": "Roughly how much of the body's energy does the brain use?",
+          "options": ["About 2%", "About 20%", "About 50%"],
+          "correctIndex": 1,
+          "explanation": "The brain is only about 2% of body weight, yet it uses around 20% of the body's energy."
+        },
+        {
+          "question": "According to the video, how long should you focus on one task before a break?",
+          "options": ["No more than about 60 to 90 minutes", "At least 3 hours", "As long as you can"],
+          "correctIndex": 0,
+          "explanation": "Adeel explains our natural rhythms: focus for up to 60 to 90 minutes, less for young children, then recharge."
+        },
+        {
+          "question": "Which of these does NOT recharge your brain?",
+          "options": ["A walk in green space", "Scrolling on your phone", "Sitting quietly and resting"],
+          "correctIndex": 1,
+          "explanation": "Rest, nature, sunlight, a bath or exercise help the brain recover. Screens keep it busy."
+        }
       ],
-      "contentVersion": 1
+      "contentVersion": 2
     },
     {
       "id": "l02-one-thing",
       "order": 2,
       "published": true,
       "title": "One thing at a time",
-      "sourceVideoTitle": "[TODO Content Pack L2] Source video title",
+      "sourceVideoTitle": "Your Brain Runs on 20 Watts: Here's Why Try Harder Fails",
       "youtubeId": "RdAEGUJaflA",
-      "clipStartSec": 60,
-      "clipEndSec": 120,
+      "clipStartSec": 329,
+      "clipEndSec": 422,
       "keyIdea": [
-        "[TODO Content Pack L2] Key idea bullet 1",
-        "[TODO Content Pack L2] Key idea bullet 2",
-        "[TODO Content Pack L2] Key idea bullet 3"
+        "Each task you focus on asks your brain for a little more energy.",
+        "A book, a phone and a TV at the same time split that energy three ways, and the load grows.",
+        "An overloaded brain misses big things: in the famous gorilla experiment, about half the viewers never saw the gorilla."
       ],
-      "action": "[TODO Content Pack L2] Today's action",
-      "reflectionQuestion": "[TODO Content Pack L2] Evening question",
+      "action": "Pick one important task today. Put your phone in another room, switch off the TV and music, and give that task 25 minutes of single focus.",
+      "reflectionQuestion": "What pulled your attention away today, and what did you do about it?",
       "quiz": [
-        {"question": "[TODO L2] Question 1", "options": ["Option A", "Option B", "Option C"], "correctIndex": 0, "explanation": "[TODO] Explanation"},
-        {"question": "[TODO L2] Question 2", "options": ["Option A", "Option B", "Option C"], "correctIndex": 1, "explanation": "[TODO] Explanation"},
-        {"question": "[TODO L2] Question 3", "options": ["Option A", "Option B", "Option C"], "correctIndex": 2, "explanation": "[TODO] Explanation"}
+        {
+          "question": "What happens when you split your focus across several things at once?",
+          "options": ["The brain gets more energy", "The load on the brain grows and you miss more", "Nothing changes"],
+          "correctIndex": 1,
+          "explanation": "Every extra focus point adds load. An overloaded brain starts missing obvious things."
+        },
+        {
+          "question": "In the gorilla experiment, what were viewers asked to do?",
+          "options": ["Find the gorilla", "Count the passes of the ball", "Name the players"],
+          "correctIndex": 1,
+          "explanation": "They were busy counting basketball passes, and about half never noticed a gorilla walking through."
+        },
+        {
+          "question": "Which set-up best helps focus?",
+          "options": ["Studying with the TV on", "Checking the phone between pages", "One task, phone away, no background screens"],
+          "correctIndex": 2,
+          "explanation": "Adeel's advice: when you focus, focus on one thing, with no phone, music or TV alongside."
+        }
       ],
-      "contentVersion": 1
+      "contentVersion": 2
     },
     {
-      "id": "l03-lesson-3",
+      "id": "l03-learn-in-a-circle",
       "order": 3,
       "published": true,
-      "title": "[TODO Content Pack L3] Title",
-      "sourceVideoTitle": "[TODO Content Pack L3] Source video title",
-      "youtubeId": "RdAEGUJaflA",
-      "clipStartSec": 180,
-      "clipEndSec": 240,
+      "title": "Try it yourself first",
+      "sourceVideoTitle": "A Science Based New Way to Study | Neuroplasticity | Episode 19",
+      "youtubeId": "izOdgFjP8pM",
+      "clipStartSec": 359,
+      "clipEndSec": 534,
       "keyIdea": [
-        "[TODO Content Pack L3] Key idea bullet 1",
-        "[TODO Content Pack L3] Key idea bullet 2",
-        "[TODO Content Pack L3] Key idea bullet 3"
+        "Start by skimming: look quickly over the chapter or skill so you know what is where.",
+        "Then try a question on your own, with no hints, no Google and no help. The struggle is what builds your brain's 'muscles'.",
+        "Only after you have tried, check your answer and correct your mistakes."
       ],
-      "action": "[TODO Content Pack L3] Today's action",
-      "reflectionQuestion": "[TODO Content Pack L3] Evening question",
+      "action": "Choose one problem, task or skill today. Attempt it completely on your own before you look anything up. Then check and fix your answer.",
+      "reflectionQuestion": "What did you try on your own today, and what did checking your answer teach you?",
       "quiz": [
-        {"question": "[TODO L3] Question 1", "options": ["Option A", "Option B", "Option C"], "correctIndex": 0, "explanation": "[TODO] Explanation"},
-        {"question": "[TODO L3] Question 2", "options": ["Option A", "Option B", "Option C"], "correctIndex": 1, "explanation": "[TODO] Explanation"},
-        {"question": "[TODO L3] Question 3", "options": ["Option A", "Option B", "Option C"], "correctIndex": 2, "explanation": "[TODO] Explanation"}
+        {
+          "question": "What is the first step of the learning circle?",
+          "options": ["Highlight everything", "Skim the material quickly", "Ask someone for the answer"],
+          "correctIndex": 1,
+          "explanation": "First you skim, just enough to know what is in the chapter and where."
+        },
+        {
+          "question": "Why avoid hints when you first attempt a question?",
+          "options": ["Hints are always wrong", "The struggle builds your own thinking", "It saves time"],
+          "correctIndex": 1,
+          "explanation": "Taking a hint borrows the method. Working it out yourself is what makes the skill your own."
+        },
+        {
+          "question": "When should you check your answer?",
+          "options": ["Before you start", "After you have attempted it yourself", "Never"],
+          "correctIndex": 1,
+          "explanation": "Attempt first, then check and correct. That order shows you exactly where your mistake was."
+        }
       ],
-      "contentVersion": 1
+      "contentVersion": 2
     },
     {
-      "id": "l04-lesson-4",
+      "id": "l04-rest-to-learn",
       "order": 4,
       "published": true,
-      "title": "[TODO Content Pack L4] Title",
-      "sourceVideoTitle": "[TODO Content Pack L4] Source video title",
-      "youtubeId": "RdAEGUJaflA",
-      "clipStartSec": 300,
-      "clipEndSec": 360,
+      "title": "Rest is part of learning",
+      "sourceVideoTitle": "A Science Based New Way to Study | Neuroplasticity | Episode 19",
+      "youtubeId": "izOdgFjP8pM",
+      "clipStartSec": 532,
+      "clipEndSec": 634,
       "keyIdea": [
-        "[TODO Content Pack L4] Key idea bullet 1",
-        "[TODO Content Pack L4] Key idea bullet 2",
-        "[TODO Content Pack L4] Key idea bullet 3"
+        "After each attempt, stop for 10 to 20 seconds, close your eyes and pay attention only to your breathing.",
+        "During that short, deep rest your brain quietly replays what you just practised.",
+        "Learning has two stages, focus and rest. Repeat the circle: focus, check, rest, then the next question."
       ],
-      "action": "[TODO Content Pack L4] Today's action",
-      "reflectionQuestion": "[TODO Content Pack L4] Evening question",
+      "action": "Today, after each task, question or page, close your eyes for 20 seconds and follow your breath before moving on.",
+      "reflectionQuestion": "How did the short rests change the way you felt while learning?",
       "quiz": [
-        {"question": "[TODO L4] Question 1", "options": ["Option A", "Option B", "Option C"], "correctIndex": 0, "explanation": "[TODO] Explanation"},
-        {"question": "[TODO L4] Question 2", "options": ["Option A", "Option B", "Option C"], "correctIndex": 1, "explanation": "[TODO] Explanation"},
-        {"question": "[TODO L4] Question 3", "options": ["Option A", "Option B", "Option C"], "correctIndex": 2, "explanation": "[TODO] Explanation"}
+        {
+          "question": "What do you do in the short rest step?",
+          "options": ["Check your phone", "Close your eyes and focus on your breathing", "Start the next question straight away"],
+          "correctIndex": 1,
+          "explanation": "For 10 to 20 seconds you close your eyes, think of nothing, and follow your breath."
+        },
+        {
+          "question": "What does the brain do during that rest?",
+          "options": ["Switches off completely", "Replays what you just practised", "Forgets the lesson"],
+          "correctIndex": 1,
+          "explanation": "In rest the brain keeps revising what you learned, on its own."
+        },
+        {
+          "question": "What are the two stages of learning described in the video?",
+          "options": ["Focus and rest", "Reading and highlighting", "Memorising and testing"],
+          "correctIndex": 0,
+          "explanation": "Adeel's summary: learning is focus, then relax, then focus again."
+        }
       ],
-      "contentVersion": 1
+      "contentVersion": 2
     }
   ]
 }
