@@ -131,9 +131,9 @@ class _Page extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 28),
       child: Column(
         children: [
-          const SizedBox(height: 12),
+          const SizedBox(height: 4),
           OnboardingIllustration(art: art),
-          const SizedBox(height: 32),
+          const SizedBox(height: 20),
           Text(
             title,
             style: theme.textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700),

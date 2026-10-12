@@ -1,6 +1,12 @@
-/// App-wide constants. Keep [kAppBuild] equal to the `+N` build number in
-/// pubspec.yaml (test/config_test.dart checks this).
+/// App-wide constants. Keep [kAppVersion] and [kAppBuild] equal to the
+/// `version: X.Y.Z+N` line in pubspec.yaml (test/validators_and_config_test.dart checks this).
+const String kAppVersion = '1.0.1';
 const int kAppBuild = 2;
+
+/// HomiLabs company details shown in Profile → About HomiLabs.
+const String kCompanyName = 'HomiLabs Solutions (SMC-Private) Limited';
+const String kCompanyWebsite = 'https://homilabs.org';
+const String kCompanyEmail = 'homilabs.smc@gmail.com';
 
 const String kTermsVersion = '2026-10';
 

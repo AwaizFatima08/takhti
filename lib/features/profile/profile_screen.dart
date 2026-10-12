@@ -71,6 +71,12 @@ class ProfileScreen extends ConsumerWidget {
             onTap: () => _about(context),
           ),
           ListTile(
+            leading: const Icon(Icons.business_outlined),
+            title: const Text('About HomiLabs'),
+            subtitle: const Text('Who makes this app · contact us'),
+            onTap: () => _aboutHomiLabs(context),
+          ),
+          ListTile(
             leading: const Icon(Icons.rate_review_outlined),
             title: const Text('Give pilot feedback'),
             onTap: () => showFeedbackDialog(context, ref),
@@ -100,7 +106,7 @@ class ProfileScreen extends ConsumerWidget {
           ),
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 20, 16, 0),
-            child: Text('Takhti Grow · pilot build $kAppBuild', style: theme.textTheme.bodySmall),
+            child: Text('Takhti Grow $kAppVersion (build $kAppBuild) · by HomiLabs', style: theme.textTheme.bodySmall),
           ),
         ],
       ),
@@ -144,6 +150,52 @@ class ProfileScreen extends ConsumerWidget {
     } catch (_) {
       if (context.mounted) showSnack(context, 'Could not save. Check your internet connection.');
     }
+  }
+
+  void _aboutHomiLabs(BuildContext context) {
+    final theme = Theme.of(context);
+    showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      showDragHandle: true,
+      builder: (context) => SafeArea(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.fromLTRB(24, 0, 24, 24),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('About HomiLabs', style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w700)),
+              const SizedBox(height: 8),
+              Text(
+                'Takhti Grow is designed and built by $kCompanyName, Pakistan, '
+                'in partnership with Takhti Online.',
+                style: theme.textTheme.bodyLarge,
+              ),
+              const SizedBox(height: 12),
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: const Icon(Icons.language),
+                title: const Text('homilabs.org'),
+                trailing: const Icon(Icons.open_in_new, size: 18),
+                onTap: () => openLink(context, Uri.parse(kCompanyWebsite)),
+              ),
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: const Icon(Icons.mail_outline),
+                title: const Text(kCompanyEmail),
+                subtitle: const Text('Questions, feedback or account help'),
+                onTap: () => openLink(
+                  context,
+                  Uri(scheme: 'mailto', path: kCompanyEmail, query: 'subject=Takhti%20Grow'),
+                ),
+              ),
+              const SizedBox(height: 8),
+              Text('Version $kAppVersion (build $kAppBuild)', style: theme.textTheme.bodySmall),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 
   void _about(BuildContext context) {

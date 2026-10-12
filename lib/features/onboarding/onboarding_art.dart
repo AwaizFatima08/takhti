@@ -45,17 +45,19 @@ class OnboardingIllustration extends StatelessWidget {
       );
     }
     final icon = art == OnboardingArt.brain ? Icons.psychology_rounded : Icons.record_voice_over_rounded;
+    // Scales with screen height so the text below fits on small phones (e.g. Galaxy A12).
+    final size = (MediaQuery.sizeOf(context).height * 0.15).clamp(100.0, 200.0);
     return ExcludeSemantics(
       child: Container(
-        width: 200,
-        height: 200,
+        width: size,
+        height: size,
         decoration: BoxDecoration(
           shape: BoxShape.circle,
           gradient: RadialGradient(
             colors: [scheme.primaryContainer, scheme.primaryContainer.withValues(alpha: 0.25)],
           ),
         ),
-        child: Icon(icon, size: 110, color: scheme.primary),
+        child: Icon(icon, size: size * 0.55, color: scheme.primary),
       ),
     );
   }

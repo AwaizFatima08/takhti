@@ -25,11 +25,11 @@ void main() {
     expect(validateEmail('nope'), isNotNull);
   });
 
-  test('kAppBuild matches pubspec build number', () {
-    final version = RegExp(r'^version:\s*\S+\+(\d+)', multiLine: true)
-        .firstMatch(File('pubspec.yaml').readAsStringSync())!
-        .group(1);
-    expect(int.parse(version!), kAppBuild);
+  test('kAppVersion and kAppBuild match pubspec version', () {
+    final m = RegExp(r'^version:\s*([\d.]+)\+(\d+)', multiLine: true)
+        .firstMatch(File('pubspec.yaml').readAsStringSync())!;
+    expect(m.group(1), kAppVersion);
+    expect(int.parse(m.group(2)!), kAppBuild);
   });
 
   test('bundled lessons are valid (3 bullets, 3 quiz questions, clip range)', () {
