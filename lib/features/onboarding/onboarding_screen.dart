@@ -60,10 +60,12 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                   _Page(
                     art: OnboardingArt.voice,
                     title: 'I used to be terrified of speaking.',
-                    // TODO(content): Adeel's story text + Course Launch clip (1:10–2:00)
-                    // from Content Pack v0.1, Screen 2.
-                    body: 'Adeel Imtiaz, host of Takhti, on how small steps, repeated '
-                        'daily, changed what he could do.',
+                    // Paraphrased from Adeel's Course Launch video (7dUmK-l5S2Y, 1:05–2:00).
+                    body: '"Standing in front of people, my heart would pound. I hid that fear '
+                        'at work for years. Then my brain changed itself. Today I speak in front '
+                        'of thousands with ease. That is neuroplasticity."\n— Adeel Imtiaz, Takhti',
+                    linkLabel: 'Watch Adeel\'s story (1 min)',
+                    linkUrl: 'https://www.youtube.com/watch?v=7dUmK-l5S2Y&t=65s',
                   ),
                   _Page(
                     art: OnboardingArt.loop,
@@ -108,11 +110,19 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
 }
 
 class _Page extends StatelessWidget {
-  const _Page({required this.art, required this.title, required this.body});
+  const _Page({
+    required this.art,
+    required this.title,
+    required this.body,
+    this.linkLabel,
+    this.linkUrl,
+  });
 
   final OnboardingArt art;
   final String title;
   final String body;
+  final String? linkLabel;
+  final String? linkUrl;
 
   @override
   Widget build(BuildContext context) {
@@ -131,6 +141,14 @@ class _Page extends StatelessWidget {
           ),
           const SizedBox(height: 14),
           Text(body, style: theme.textTheme.bodyLarge, textAlign: TextAlign.center),
+          if (linkUrl != null) ...[
+            const SizedBox(height: 8),
+            TextButton.icon(
+              onPressed: () => openLink(context, Uri.parse(linkUrl!)),
+              icon: const Icon(Icons.play_circle_outline),
+              label: Text(linkLabel ?? 'Watch'),
+            ),
+          ],
         ],
       ),
     );

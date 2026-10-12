@@ -161,7 +161,12 @@ class _TodayCard extends ConsumerWidget {
           _Eyebrow(header(lesson)),
           Text('How did it go?', style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w700)),
           const SizedBox(height: 8),
-          Text('Today\'s action: ${lesson.action}', style: theme.textTheme.bodyLarge),
+          Text(
+            'Today\'s action: ${lesson.action}',
+            style: theme.textTheme.bodyLarge,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+          ),
           const SizedBox(height: 16),
           _StepChecklist(progress: progress),
           const SizedBox(height: 20),

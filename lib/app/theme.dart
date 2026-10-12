@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 /// Placeholder accent until Takhti's brand colour is confirmed (D10).
 const Color kTeal = Color(0xFF1F6F6B);
 
+/// Dialog actions need a normal width: the app-wide filled button style is
+/// full width, which makes AlertDialog stack its actions vertically.
+final ButtonStyle kDialogButtonStyle = FilledButton.styleFrom(minimumSize: const Size(88, 48));
+
 ThemeData buildTheme(Brightness brightness) {
   final scheme = ColorScheme.fromSeed(seedColor: kTeal, brightness: brightness).copyWith(
     primary: brightness == Brightness.light ? kTeal : null,

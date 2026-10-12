@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../app/config.dart';
 import '../../app/providers.dart';
+import '../../app/theme.dart';
 import '../../shared/widgets/common.dart';
 import '../auth/auth_repository.dart';
 import '../auth/validators.dart';
@@ -126,6 +127,7 @@ class ProfileScreen extends ConsumerWidget {
             actions: [
               TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
               FilledButton(
+                style: kDialogButtonStyle,
                 onPressed: error == null ? () => Navigator.pop(context, controller.text) : null,
                 child: const Text('Save'),
               ),
@@ -200,7 +202,9 @@ class ProfileScreen extends ConsumerWidget {
         actions: [
           TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Cancel')),
           FilledButton(
-            style: FilledButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.error),
+            style: kDialogButtonStyle.copyWith(
+              backgroundColor: WidgetStatePropertyAll(Theme.of(context).colorScheme.error),
+            ),
             onPressed: () => Navigator.pop(context, true),
             child: const Text('Delete'),
           ),
@@ -279,7 +283,11 @@ class ProfileScreen extends ConsumerWidget {
         ),
         actions: [
           TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
-          FilledButton(onPressed: () => Navigator.pop(context, controller.text), child: const Text('Continue')),
+          FilledButton(
+            style: kDialogButtonStyle,
+            onPressed: () => Navigator.pop(context, controller.text),
+            child: const Text('Continue'),
+          ),
         ],
       ),
     ).whenComplete(controller.dispose);

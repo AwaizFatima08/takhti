@@ -1,6 +1,6 @@
 /// App-wide constants. Keep [kAppBuild] equal to the `+N` build number in
 /// pubspec.yaml (test/config_test.dart checks this).
-const int kAppBuild = 1;
+const int kAppBuild = 2;
 
 const String kTermsVersion = '2026-10';
 

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app/config.dart';
+import '../../app/theme.dart';
 import '../../app/providers.dart';
 import '../../shared/widgets/common.dart';
 import 'user_repository.dart';
@@ -91,6 +92,7 @@ class _FeedbackDialogState extends ConsumerState<_FeedbackDialog> {
       actions: [
         TextButton(onPressed: () => Navigator.of(context).pop(false), child: const Text('Cancel')),
         FilledButton(
+          style: kDialogButtonStyle,
           onPressed: _rating == 0 || _busy ? null : _send,
           child: _busy
               ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
