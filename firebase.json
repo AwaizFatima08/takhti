@@ -37,6 +37,15 @@
             "value": "https://play.google.com"
           }
         ]
+      },
+      {
+        "source": "/grow/**",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
       }
     ]
   }
