@@ -7,7 +7,7 @@ Flutter Android app (package `com.homilabs.takhtigrow`), pilot of 4 daily neuros
 - `lib/app/` — `router.dart` (go_router + auth/profile redirect), `providers.dart`, `theme.dart`, `config.dart` (`kAppBuild` must equal pubspec `+N`; URLs).
 - `lib/shared/journey_logic.dart` — unlock, Today state, streak (pure Dart, unit-tested).
 - `lib/features/<feature>/` — screens + repositories (auth, lesson, reminders, profile, reflections, journey, today, onboarding, home).
-- `assets/lessons.json` — lesson content; bundled fallback **and** source for the seed scripts. Drafted 2026-10-11 from Takhti videos RdAEGUJaflA and izOdgFjP8pM (Hindi auto-captions); awaiting Adeel's review.
+- `assets/lessons.json` — lesson content; bundled fallback **and** source for the seed scripts. Drafted 2026-10-11 from Takhti videos RdAEGUJaflA and izOdgFjP8pM (Hindi auto-captions); reviewed and approved by Adeel 2026-10-12.
 - `firestore.rules` / `firestore.indexes.json` — deployed with `firebase deploy --only firestore`.
 - `tool/` — `seed_via_cli.js` (writes lessons + appConfig to live Firestore using the logged-in Firebase CLI account), `seed_lessons.js` (Admin SDK, for the emulator or a service-account key), `rules.test.mjs` (emulator rules tests), `emulator-test-account.env` (emulator-only).
 - `web/grow/` — privacy, terms, delete-account pages for takhti.homilabs.org/grow/ (Homi uploads to Hostinger).
