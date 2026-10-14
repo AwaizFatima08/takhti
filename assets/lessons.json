@@ -1,5 +1,5 @@
 {
-  "_note": "Drafted 2026-10-11 from the Hindi auto-captions of Takhti videos RdAEGUJaflA and izOdgFjP8pM. Adeel to review wording and clip times. After edits: bump contentVersion and run tool/seed_lessons.js.",
+  "_note": "Lessons 1-4: drafted 2026-10-11 from Hindi auto-captions of RdAEGUJaflA and izOdgFjP8pM, approved by Adeel 2026-10-12. Lessons 5-14: drafted 2026-10-14 from local Whisper transcripts in docs/captions/ (Power of Neuroplasticity playlist), awaiting Adeel's review. After edits: bump contentVersion and run tool/seed_via_cli.js.",
   "lessons": [
     {
       "id": "l01-brain-20-watts",
@@ -20,19 +20,31 @@
       "quiz": [
         {
           "question": "Roughly how much of the body's energy does the brain use?",
-          "options": ["About 2%", "About 20%", "About 50%"],
+          "options": [
+            "About 2%",
+            "About 20%",
+            "About 50%"
+          ],
           "correctIndex": 1,
           "explanation": "The brain is only about 2% of body weight, yet it uses around 20% of the body's energy."
         },
         {
           "question": "According to the video, how long should you focus on one task before a break?",
-          "options": ["No more than about 60 to 90 minutes", "At least 3 hours", "As long as you can"],
+          "options": [
+            "No more than about 60 to 90 minutes",
+            "At least 3 hours",
+            "As long as you can"
+          ],
           "correctIndex": 0,
           "explanation": "Adeel explains our natural rhythms: focus for up to 60 to 90 minutes, less for young children, then recharge."
         },
         {
           "question": "Which of these does NOT recharge your brain?",
-          "options": ["A walk in green space", "Scrolling on your phone", "Sitting quietly and resting"],
+          "options": [
+            "A walk in green space",
+            "Scrolling on your phone",
+            "Sitting quietly and resting"
+          ],
           "correctIndex": 1,
           "explanation": "Rest, nature, sunlight, a bath or exercise help the brain recover. Screens keep it busy."
         }
@@ -58,19 +70,31 @@
       "quiz": [
         {
           "question": "What happens when you split your focus across several things at once?",
-          "options": ["The brain gets more energy", "The load on the brain grows and you miss more", "Nothing changes"],
+          "options": [
+            "The brain gets more energy",
+            "The load on the brain grows and you miss more",
+            "Nothing changes"
+          ],
           "correctIndex": 1,
           "explanation": "Every extra focus point adds load. An overloaded brain starts missing obvious things."
         },
         {
           "question": "In the gorilla experiment, what were viewers asked to do?",
-          "options": ["Find the gorilla", "Count the passes of the ball", "Name the players"],
+          "options": [
+            "Find the gorilla",
+            "Count the passes of the ball",
+            "Name the players"
+          ],
           "correctIndex": 1,
           "explanation": "They were busy counting basketball passes, and about half never noticed a gorilla walking through."
         },
         {
           "question": "Which set-up best helps focus?",
-          "options": ["Studying with the TV on", "Checking the phone between pages", "One task, phone away, no background screens"],
+          "options": [
+            "Studying with the TV on",
+            "Checking the phone between pages",
+            "One task, phone away, no background screens"
+          ],
           "correctIndex": 2,
           "explanation": "Adeel's advice: when you focus, focus on one thing, with no phone, music or TV alongside."
         }
@@ -96,19 +120,31 @@
       "quiz": [
         {
           "question": "What is the first step of the learning circle?",
-          "options": ["Highlight everything", "Skim the material quickly", "Ask someone for the answer"],
+          "options": [
+            "Highlight everything",
+            "Skim the material quickly",
+            "Ask someone for the answer"
+          ],
           "correctIndex": 1,
           "explanation": "First you skim, just enough to know what is in the chapter and where."
         },
         {
           "question": "Why avoid hints when you first attempt a question?",
-          "options": ["Hints are always wrong", "The struggle builds your own thinking", "It saves time"],
+          "options": [
+            "Hints are always wrong",
+            "The struggle builds your own thinking",
+            "It saves time"
+          ],
           "correctIndex": 1,
           "explanation": "Taking a hint borrows the method. Working it out yourself is what makes the skill your own."
         },
         {
           "question": "When should you check your answer?",
-          "options": ["Before you start", "After you have attempted it yourself", "Never"],
+          "options": [
+            "Before you start",
+            "After you have attempted it yourself",
+            "Never"
+          ],
           "correctIndex": 1,
           "explanation": "Attempt first, then check and correct. That order shows you exactly where your mistake was."
         }
@@ -134,24 +170,536 @@
       "quiz": [
         {
           "question": "What do you do in the short rest step?",
-          "options": ["Check your phone", "Close your eyes and focus on your breathing", "Start the next question straight away"],
+          "options": [
+            "Check your phone",
+            "Close your eyes and focus on your breathing",
+            "Start the next question straight away"
+          ],
           "correctIndex": 1,
           "explanation": "For 10 to 20 seconds you close your eyes, think of nothing, and follow your breath."
         },
         {
           "question": "What does the brain do during that rest?",
-          "options": ["Switches off completely", "Replays what you just practised", "Forgets the lesson"],
+          "options": [
+            "Switches off completely",
+            "Replays what you just practised",
+            "Forgets the lesson"
+          ],
           "correctIndex": 1,
           "explanation": "In rest the brain keeps revising what you learned, on its own."
         },
         {
           "question": "What are the two stages of learning described in the video?",
-          "options": ["Focus and rest", "Reading and highlighting", "Memorising and testing"],
+          "options": [
+            "Focus and rest",
+            "Reading and highlighting",
+            "Memorising and testing"
+          ],
           "correctIndex": 0,
           "explanation": "Adeel's summary: learning is focus, then relax, then focus again."
         }
       ],
       "contentVersion": 2
+    },
+    {
+      "id": "l05-change-at-any-age",
+      "order": 5,
+      "published": true,
+      "title": "You can change your brain",
+      "sourceVideoTitle": "Rewire Your Brain | Neuroplasticity | Episode 1",
+      "youtubeId": "RUppA4oHH6U",
+      "clipStartSec": 24,
+      "clipEndSec": 78,
+      "keyIdea": [
+        "For a long time people were told the brain cannot change, so there was little point trying to do much better.",
+        "That was a myth. At any age, your brain can change both its structure and the way it works.",
+        "If the brain can change, so can your habits. The next lessons show you practical ways to do it."
+      ],
+      "action": "Write down one habit you would like to change and one new habit you would like to build. Keep the note where you will see it during the next lessons.",
+      "reflectionQuestion": "Which habit did you pick, and why does it matter to you?",
+      "quiz": [
+        {
+          "question": "What were people told about the brain for a long time?",
+          "options": [
+            "That it changes all the time",
+            "That it cannot change",
+            "That it only changes in old age"
+          ],
+          "correctIndex": 1,
+          "explanation": "The old belief was that the brain is fixed. Adeel calls that a myth."
+        },
+        {
+          "question": "According to the video, at what age can the brain change?",
+          "options": [
+            "Only in childhood",
+            "Only before 25",
+            "At any age"
+          ],
+          "correctIndex": 2,
+          "explanation": "Today we know a person can change their brain at any age."
+        },
+        {
+          "question": "What can change in the brain?",
+          "options": [
+            "Its structure and how it works",
+            "Nothing at all",
+            "Only its size"
+          ],
+          "correctIndex": 0,
+          "explanation": "Both the brain's structure and its function can change. That is neuroplasticity."
+        }
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l06-use-it-or-lose-it",
+      "order": 6,
+      "published": true,
+      "title": "Use it or lose it",
+      "sourceVideoTitle": "Third Rule Of Neuro Plasticity | Use or Loose it",
+      "youtubeId": "g2uvJxbna7c",
+      "clipStartSec": 272,
+      "clipEndSec": 408,
+      "keyIdea": [
+        "The third rule of neuroplasticity: the parts of the brain you use grow stronger, and the parts you stop using fade.",
+        "People who learn a second language develop denser grey matter in the language areas. If they forget the language, the brain slowly goes back.",
+        "Juggling, dancing and other rhythmic movement build the brain too, but only while you keep doing them."
+      ],
+      "action": "Spend 15 minutes on something new for your brain today: a few words of a new language, three balls to juggle, or a new dance step.",
+      "reflectionQuestion": "What new thing did you try today, and how did it feel?",
+      "quiz": [
+        {
+          "question": "What does \"use it or lose it\" mean for the brain?",
+          "options": [
+            "Parts you use get stronger; parts you don't use fade",
+            "The brain loses cells when you use it",
+            "You should rest the brain as much as possible"
+          ],
+          "correctIndex": 0,
+          "explanation": "Brain areas that work keep growing. Areas left unused weaken or take on other jobs."
+        },
+        {
+          "question": "What happened to grey matter when people learned another language?",
+          "options": [
+            "It shrank",
+            "It became denser",
+            "Nothing changed"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grey matter in the language areas became denser, and its shape changed."
+        },
+        {
+          "question": "What happens if you stop juggling after learning it?",
+          "options": [
+            "The gains stay forever",
+            "The brain slowly goes back",
+            "You get better at it"
+          ],
+          "correctIndex": 1,
+          "explanation": "Stop practising and the extra grey matter goes back to where it was."
+        }
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l07-memory-is-a-connection",
+      "order": 7,
+      "published": true,
+      "title": "A memory is a connection",
+      "sourceVideoTitle": "Learning Memory and Neuroplasticity",
+      "youtubeId": "85s4OSS07jQ",
+      "clipStartSec": 209,
+      "clipEndSec": 290,
+      "keyIdea": [
+        "Nobel Prize winner Eric Kandel showed that a memory is not kept in a box. It is a connection between neurons.",
+        "Repetition makes these connections stronger, so you remember things for longer.",
+        "When you seem to forget something, the connection has only gone quiet. Go through the same experience again and it often comes back."
+      ],
+      "action": "Pick one thing you learned in this course. Say it out loud to someone this morning, and again in the evening, without looking at your notes.",
+      "reflectionQuestion": "How much did you remember the second time compared with the first?",
+      "quiz": [
+        {
+          "question": "According to Eric Kandel's research, what is a memory?",
+          "options": [
+            "A file stored in one box",
+            "A connection between neurons",
+            "A chemical in the blood"
+          ],
+          "correctIndex": 1,
+          "explanation": "His experiments showed that memory lives in the connections (synapses) between neurons."
+        },
+        {
+          "question": "What makes a memory connection stronger?",
+          "options": [
+            "Repetition",
+            "Ignoring it",
+            "Sleeping less"
+          ],
+          "correctIndex": 0,
+          "explanation": "Each time you go over something, the connection grows stronger and lasts longer."
+        },
+        {
+          "question": "When you \"forget\" something, what has often happened?",
+          "options": [
+            "The memory is gone for good",
+            "The connection has gone quiet for a while",
+            "The neuron has died"
+          ],
+          "correctIndex": 1,
+          "explanation": "The memory is inactive, not erased. Meeting the same experience again can bring it back."
+        }
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l08-comfort-zone",
+      "order": 8,
+      "published": true,
+      "title": "Step out of your comfort zone",
+      "sourceVideoTitle": "Out of Comfort Zone | Power of Neuroplasticity | Episode 6",
+      "youtubeId": "K4fB-blb5qE",
+      "clipStartSec": 15,
+      "clipEndSec": 116,
+      "keyIdea": [
+        "The more your brain struggles with something unfamiliar, the more it learns.",
+        "Small, slightly uncomfortable exercises prepare the brain for change, the way ploughing prepares a field before you sow seeds.",
+        "Keep them random. Once something becomes routine, it stops stretching the brain."
+      ],
+      "action": "Do one small thing differently today: take a new route, brush your teeth with your other hand, or order something you have never tried.",
+      "reflectionQuestion": "What felt uncomfortable today, and what did you notice while doing it?",
+      "quiz": [
+        {
+          "question": "When does the brain learn the most?",
+          "options": [
+            "When everything is easy and familiar",
+            "When it works through some discomfort",
+            "When it is bored"
+          ],
+          "correctIndex": 1,
+          "explanation": "Adeel explains that the more the brain struggles, the more it learns."
+        },
+        {
+          "question": "What does Adeel compare these first exercises to?",
+          "options": [
+            "Ploughing a field before sowing",
+            "Charging a phone",
+            "Painting a wall"
+          ],
+          "correctIndex": 0,
+          "explanation": "Like ploughing, they prepare the ground so change can take root."
+        },
+        {
+          "question": "Why should you avoid turning these exercises into a fixed routine?",
+          "options": [
+            "Routines are bad for sleep",
+            "A routine stops challenging the brain",
+            "They take too long"
+          ],
+          "correctIndex": 1,
+          "explanation": "Do them at random. Once they are routine, they lose their purpose."
+        }
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l09-make-a-habit-stick",
+      "order": 9,
+      "published": true,
+      "title": "Make a new habit stick",
+      "sourceVideoTitle": "Making New Habits Permanent | Neuroplasticity | Episode 12",
+      "youtubeId": "N1ltcjrHzuc",
+      "clipStartSec": 50,
+      "clipEndSec": 212,
+      "keyIdea": [
+        "An old habit is a short, well-worn path in the brain. A new habit starts as a long bypass, and the brain prefers the shortest road.",
+        "Each repetition makes the bypass shorter. When it is shorter than the old path, the new habit takes over and the old one fades.",
+        "Repetition is easier when the habit is linked to something you enjoy for its own sake, not only to a reward from outside."
+      ],
+      "action": "Take the new habit you wrote down in Lesson 5. Link it to something you enjoy, such as walking with a friend or listening to music, and do it once today.",
+      "reflectionQuestion": "What did you link your new habit to, and did it make it easier?",
+      "quiz": [
+        {
+          "question": "Why does the brain prefer an old habit?",
+          "options": [
+            "Its path is shorter and uses less energy",
+            "Old habits are always better",
+            "The brain cannot learn new paths"
+          ],
+          "correctIndex": 0,
+          "explanation": "The brain saves energy, so it takes the shortest, most used path."
+        },
+        {
+          "question": "What makes the new path (the bypass) shorter?",
+          "options": [
+            "Waiting",
+            "Repetition",
+            "Thinking about it once"
+          ],
+          "correctIndex": 1,
+          "explanation": "Each repetition shortens the bypass until it beats the old path."
+        },
+        {
+          "question": "Which motivation keeps a habit going longest?",
+          "options": [
+            "A trophy or bonus",
+            "Something you enjoy for its own sake",
+            "Someone else's pressure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Rewards from outside stop when the reward stops. Joy in the process keeps you going."
+        }
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l10-baby-steps",
+      "order": 10,
+      "published": true,
+      "title": "Self-control in baby steps",
+      "sourceVideoTitle": "Exercising Self Control | Neuroplasticity | Episode 14",
+      "youtubeId": "pOX3AyLphBo",
+      "clipStartSec": 140,
+      "clipEndSec": 290,
+      "keyIdea": [
+        "Willpower is not fixed. Like any skill, self-control can be trained and grows with practice.",
+        "Don't start at the hardest level. Begin with a small step you can win, then raise the difficulty slowly.",
+        "To resist ice cream, first look at the shop from far away and walk home. Later go closer, then inside with a friend, and only then alone."
+      ],
+      "action": "Pick one temptation you want to beat. Write three baby steps, from easy to hard, and do the first step today.",
+      "reflectionQuestion": "What was your first baby step, and how did it go?",
+      "quiz": [
+        {
+          "question": "What does neuroscience say about willpower?",
+          "options": [
+            "You are born with a fixed amount",
+            "It can be trained and increased",
+            "It only works in the morning"
+          ],
+          "correctIndex": 1,
+          "explanation": "Self-control can be learned and grows with practice."
+        },
+        {
+          "question": "Where should you start when training self-control?",
+          "options": [
+            "At the hardest level",
+            "With a small step you can win",
+            "By avoiding the problem forever"
+          ],
+          "correctIndex": 1,
+          "explanation": "Start with baby steps and raise the difficulty slowly."
+        },
+        {
+          "question": "Why is ice cream such a strong temptation?",
+          "options": [
+            "It triggers several senses at once",
+            "It is cheap",
+            "It is healthy"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sight, smell and taste all trigger the craving, and eating it gives a dopamine reward."
+        }
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l11-write-it-down",
+      "order": 11,
+      "published": true,
+      "title": "Write it down",
+      "sourceVideoTitle": "Exercises Which can Change Brain Structure | Neuroplasticity | Episode 10",
+      "youtubeId": "TR1W_aLbNAw",
+      "clipStartSec": 607,
+      "clipEndSec": 691,
+      "keyIdea": [
+        "When you are stressed, the amygdala, a small alarm in the brain, starts ringing.",
+        "Writing your feelings down helps the alarm quieten. Studies link keeping a diary with lower stress.",
+        "Don't be shy on paper: \"I am scared\", \"this is hard\". Naming the feeling is the point."
+      ],
+      "action": "Before bed, write five lines about your day: one thing that worried you, how it made you feel, and one thing that went well.",
+      "reflectionQuestion": "How did you feel after writing your five lines?",
+      "quiz": [
+        {
+          "question": "Which part of the brain acts like an alarm under stress?",
+          "options": [
+            "The amygdala",
+            "The cerebellum",
+            "The spinal cord"
+          ],
+          "correctIndex": 0,
+          "explanation": "Adeel calls the amygdala the brain's bell: it starts ringing when you are stressed."
+        },
+        {
+          "question": "What does writing your feelings down do?",
+          "options": [
+            "Makes the alarm louder",
+            "Helps the alarm quieten",
+            "Nothing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Putting negative feelings on paper helps the amygdala calm down."
+        },
+        {
+          "question": "What should you write in your diary?",
+          "options": [
+            "Only good news",
+            "Your honest feelings, even the hard ones",
+            "Only facts and dates"
+          ],
+          "correctIndex": 1,
+          "explanation": "Name your feelings honestly. That is what helps."
+        }
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l12-social-brain",
+      "order": 12,
+      "published": true,
+      "title": "Your brain is social",
+      "sourceVideoTitle": "Ten Social Exercises for Brain | Power of Neuroplasticity | Episode 8",
+      "youtubeId": "IJrPJFvg3Bc",
+      "clipStartSec": 128,
+      "clipEndSec": 213,
+      "keyIdea": [
+        "Humans have always lived, worked and learned in groups. Our brains grow through real contact with people.",
+        "Today's social age is mostly digital. We greet neighbours in passing but rarely sit and talk with them.",
+        "Simple social exercises, like meeting someone new, talking with elders or helping someone, keep that part of the brain active."
+      ],
+      "action": "Have one real conversation today with someone you usually only greet: a neighbour, an older relative or a colleague. Put the phone away and listen.",
+      "reflectionQuestion": "Whom did you talk to, and what did you learn from them?",
+      "quiz": [
+        {
+          "question": "How have humans lived through most of history?",
+          "options": [
+            "Alone",
+            "In groups",
+            "Online"
+          ],
+          "correctIndex": 1,
+          "explanation": "We have always hunted, protected each other and learned in groups."
+        },
+        {
+          "question": "What is different about today's social age?",
+          "options": [
+            "We meet people more than ever",
+            "It is mostly through screens, and we drift apart",
+            "It has no effect on us"
+          ],
+          "correctIndex": 1,
+          "explanation": "Our digital footprint grows while real time with family and neighbours shrinks."
+        },
+        {
+          "question": "Which is one of Adeel's social exercises?",
+          "options": [
+            "Sit with new people at a wedding",
+            "Watch a series alone",
+            "Always sit with people you know"
+          ],
+          "correctIndex": 0,
+          "explanation": "He suggests sitting with new people at a function and meeting at least ten of them."
+        }
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l13-reframe",
+      "order": 13,
+      "published": true,
+      "title": "Reframe the memory",
+      "sourceVideoTitle": "Reframing | Power of Neuroplasticity | Episode 18",
+      "youtubeId": "GBykmo7rbes",
+      "clipStartSec": 194,
+      "clipEndSec": 358,
+      "keyIdea": [
+        "You can reframe a painful memory to take the sting out of it.",
+        "Put yourself in the other person's shoes. Where you see a 6, they may be looking at a 9.",
+        "Adeel was slapped at university. Only years later, seeing it through the other student's eyes, did he see his own mistake. Owning mistakes lets you learn from them."
+      ],
+      "action": "Pick one memory that still bothers you. Write how the other person might have seen it, and one thing you could have done differently.",
+      "reflectionQuestion": "Did seeing it from the other side change how you feel about it?",
+      "quiz": [
+        {
+          "question": "What is reframing?",
+          "options": [
+            "Forgetting a memory completely",
+            "Looking at a memory in a new way to take out the hurt",
+            "Blaming the other person"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reframing changes how you see a memory so the pain loses its grip."
+        },
+        {
+          "question": "What does the 6 and 9 example teach?",
+          "options": [
+            "Numbers can be confusing",
+            "The other person may see the same thing differently",
+            "One of you must be lying"
+          ],
+          "correctIndex": 1,
+          "explanation": "From their side, your 6 is a 9. Both views can make sense."
+        },
+        {
+          "question": "Why did Adeel accept part of the blame for the slap?",
+          "options": [
+            "He had embarrassed the student in front of everyone",
+            "A teacher told him to",
+            "He forgot what happened"
+          ],
+          "correctIndex": 0,
+          "explanation": "He had announced the student's failed result in a crowded canteen. Seeing that helped him learn."
+        }
+      ],
+      "contentVersion": 1
+    },
+    {
+      "id": "l14-thank-you-chemistry",
+      "order": 14,
+      "published": true,
+      "title": "The chemistry of thank you",
+      "sourceVideoTitle": "Molecules of Gratitude | Neuroplasticity | Episode-8b",
+      "youtubeId": "McrVI1A2Oyw",
+      "clipStartSec": 190,
+      "clipEndSec": 308,
+      "keyIdea": [
+        "Gratitude is not only good manners. When you thank someone, the brain releases dopamine, the same reward chemical you feel when you win something.",
+        "Gratitude is also linked to serotonin, which lifts your mood, and to lower levels of cortisol, the stress hormone.",
+        "Both people gain: the one you thank feels good, and so do you. Noticing what you already have builds the habit."
+      ],
+      "action": "Thank three people today by name and say exactly what they did, for example: \"Thank you for lending me your racket yesterday.\" One of them should be someone at home.",
+      "reflectionQuestion": "Whom did you thank today, and how did they react?",
+      "quiz": [
+        {
+          "question": "Which reward chemical does the brain release when you say thank you?",
+          "options": [
+            "Dopamine",
+            "Adrenaline",
+            "Insulin"
+          ],
+          "correctIndex": 0,
+          "explanation": "Adeel calls dopamine the first 'molecule of gratitude': the same reward chemical as winning a trophy."
+        },
+        {
+          "question": "Gratitude is linked to lower levels of which stress hormone?",
+          "options": [
+            "Melatonin",
+            "Cortisol",
+            "Serotonin"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cortisol rises under stress. Serotonin, which rises with gratitude, helps keep it down."
+        },
+        {
+          "question": "Who feels good when you thank someone for a favour?",
+          "options": [
+            "Only the other person",
+            "Only you",
+            "Both of you"
+          ],
+          "correctIndex": 2,
+          "explanation": "In the racket example, both people get a small dopamine boost."
+        }
+      ],
+      "contentVersion": 1
     }
   ]
 }

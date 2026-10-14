@@ -25,7 +25,7 @@ Every lesson follows the same five-minute loop:
 
 Your streak, progress and reflections are saved to your account, so they move with you to a new phone. Two gentle daily reminders help you keep the habit; you choose the times or turn them off.
 
-PILOT — 4 LESSONS. This first version is a pilot with four lessons. Tell us what to improve from the feedback screen at the end.
+PILOT — 14 LESSONS. This pilot has 14 daily lessons, from how your brain changes to habits, self-control and gratitude. Tell us what to improve from the feedback screen at the end.
 
 Language: the app is in English. The video clips are in Urdu (English captions where available).
 

@@ -37,7 +37,10 @@ void main() {
     final lessons = (raw['lessons'] as List)
         .map((m) => Lesson.fromMap(m['id'] as String, Map<String, dynamic>.from(m as Map)))
         .toList();
-    expect(lessons, hasLength(4));
+    expect(lessons.length, greaterThanOrEqualTo(4));
+    expect(lessons.map((l) => l.id).toSet(), hasLength(lessons.length), reason: 'ids are unique');
+    expect(lessons.map((l) => l.order).toList()..sort(), [for (var i = 1; i <= lessons.length; i++) i],
+        reason: 'orders run 1..N with no gaps');
     for (final l in lessons) {
       expect(l.keyIdea, hasLength(3), reason: l.id);
       expect(l.quiz, hasLength(3), reason: l.id);

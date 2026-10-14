@@ -54,3 +54,6 @@ tool/*-sa.json
 
 tool/node_modules/
 .firebase/
+
+# Full video transcripts (Takhti content): local + backups only
+docs/captions/
