@@ -1,6 +1,6 @@
 # Content Pack v0.2 — 10 more lessons (plan)
 
-Status: lessons drafted and tested on the emulator build, 14 Oct 2026; awaiting Adeel. Source: Takhti playlist "Power of Neuroplasticity"
+Status: drafted and tested 14 Oct 2026; reviewed and approved by Adeel 14 Oct 2026. Source: Takhti playlist "Power of Neuroplasticity"
 (PLuXb_rB1a9tuP3dl_PI_7K4s8V0-LDMSp, 35 videos). Same workflow as v0.1:
 Claude drafts from the videos' auto-captions, **Adeel reviews wording and clip
 times**, then the lessons go to live Firestore and the next build.

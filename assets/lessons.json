@@ -1,5 +1,5 @@
 {
-  "_note": "Lessons 1-4: drafted 2026-10-11 from Hindi auto-captions of RdAEGUJaflA and izOdgFjP8pM, approved by Adeel 2026-10-12. Lessons 5-14: drafted 2026-10-14 from local Whisper transcripts in docs/captions/ (Power of Neuroplasticity playlist), awaiting Adeel's review. After edits: bump contentVersion and run tool/seed_via_cli.js.",
+  "_note": "Lessons 1-4: drafted 2026-10-11 from Hindi auto-captions of RdAEGUJaflA and izOdgFjP8pM, approved by Adeel 2026-10-12. Lessons 5-14: drafted 2026-10-14 from local Whisper transcripts in docs/captions/ (Power of Neuroplasticity playlist), reviewed and approved by Adeel 2026-10-14. After edits: bump contentVersion and run tool/seed_via_cli.js.",
   "lessons": [
     {
       "id": "l01-brain-20-watts",
